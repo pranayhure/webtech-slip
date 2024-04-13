@@ -1,0 +1,66 @@
+
+    Import pandas as pd
+    From mlxtend.preprocessing import TransactionEncoder
+    From mlxtend.frequent_patterns import apriori, association_rules
+    # Create the dataset
+    Dataset = {
+     1: [“eggs”,”milk”,”bread”],
+     2: [“eggs”,”apple”],
+     3: [“milk”,”bread”],
+     4: [“apple”,”milk”],
+     5: [“milk”,”apple”,”bread”]
+    }
+    # Convert categorical values into numeric format
+    Te = TransactionEncoder()
+    Te_ary = te.fit(dataset.values()).transform(dataset.values())
+    Df = pd.DataFrame(te_ary, columns=te.columns_)
+    # Apply Apriori algorithm to generate frequent itemsets and association rules
+    Min_sup = 0.4
+    Frequent_itemsets = apriori(df, min_support=min_sup, use_colnames=True)
+    Association_rules = association_rules(frequent_itemsets, metric=”confidence”, min_threshold=0.6)
+    # Print the frequent itemsets and association rules
+    Print(“Frequent Itemsets:\n”, frequent_itemsets)
+    Print(“\nAssociation Rules:\n”, association_rules)
+
+    ---------------------------------------------------------------------------------
+    From mlxtend.preprocessing import TransactionEncoder
+From mlxtend.frequent_patterns import apriori
+# Create the dataset
+TID = {1:[“apple”,”mango”,”banana”],
+ 2:[“mango”,”banana”,”cabbage”,”carrots”],
+ 3:[“mango”,”banana”,”carrots”],
+ 4:[“mango”,”carrots”]}
+# Convert the categorical values into numeric format
+Te = TransactionEncoder()
+Te_ary = te.fit([TID[i] for i in TID]).transform([TID[i] for i in TID])
+Df = pd.DataFrame(te_ary, columns=te.columns_)
+# Apply the apriori algorithm with different min_sup values
+Min_sup_values = [0.25, 0.5, 0.75]
+For min_sup in min_sup_values:
+ Frequent_itemsets = apriori(df, min_support=min_sup, use_colnames=True)
+ Print(“Frequent itemsets with min_sup =”, min_sup)
+ Print(frequent_itemsets)
+ Print(“\n”)
+
+ ----------------------------------------------------------------------------------------
+ Import pandas as pd
+# Create the dataset
+Data = {‘No’: [1, 2, 3, 4],
+ ‘Company’: [‘Tata’, ‘MG’, ‘Kia’, ‘Hyundai’],
+ ‘Model’: [‘Nexon’, ‘Astor’, ‘Seltos’, ‘Creta’],
+ ‘Year’: [2017, 2021, 2019, 2015]}
+Df = pd.DataFrame(data)
+# Convert categorical values into numeric format
+Df[‘Company’] = pd.Categorical(df[‘Company’])
+Df[‘Model’] = pd.Categorical(df[‘Model’])
+Df[‘Company’] = df[‘Company’].cat.codes
+Df[‘Model’] = df[‘Model’].cat.codes
+Print(df)
+From mlxtend.frequent_patterns import apriori
+From mlxtend.frequent_patterns import association_rules
+# Generate frequent itemsets with min_sup = 0.5
+Frequent_itemsets = apriori(df, min_support=0.5, use_colnames=True)
+Print(frequent_itemsets)
+# Generate association rules with min_threshold = 0.7
+Association_rules = association_rules(frequent_itemsets, metric=”confidence”, min_threshold=0.7)
+Print(association_rules)
