@@ -19,7 +19,7 @@ Session_start();
 	<title>Employee Details</title>
 </head>
 <body>
-	<h1>Employee Details</h1>
+	<h1>Employee  Details</h1>
 	<form method=”POST” action=”Secondpage.php”>
 		<label for=”eno”>Employee No:</label>
 		<input type=”text” id=”eno” name=”eno”><br><br>
