@@ -16,7 +16,7 @@ Ans:
 			// Convert the input to a number
 			Var n = parseInt(input);
 
-			// Create an array to store the Fibonacci sequence
+			// Create an  array to store the Fibonacci sequence
 			Var fib = [];
 
 			// Calculate the Fibonacci sequence up to n
