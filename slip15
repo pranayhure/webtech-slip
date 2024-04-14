@@ -9,7 +9,7 @@ Ans:
 <head>
 	<title>AJAX Auto Suggestions Example</title>
 	<script>
-		Function fetchSuggestions(str) {
+		Function  fetchSuggestions(str) {
 			If (str.length == 0) {
 				Document.getElementById(“suggestions”).innerHTML = “”;
 				Return;
