@@ -9,7 +9,7 @@ Xml file book_details.xml
 
 <books>
 	<book>
-		<title>The Great Gatsby</title>
+		<title>The  Great Gatsby</title>
 		<author>F. Scott Fitzgerald</author>
 		<year>1925</year>
 		<price>10.99</price>
