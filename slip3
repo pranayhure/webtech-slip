@@ -11,7 +11,7 @@ Ans:
 // Start session
 Session_start();
 
-// Check if login form has been submitted
+// Check if login form  has been submitted
 If(isset($_POST[‘submit’])) {
   // Get username and password input from user
   $username = $_POST[‘username’];
