@@ -5,7 +5,7 @@ OMDocument Parser. “Movie.xml” file should contain following information wit
 With values. MovieInfo: MovieNo, MovieTitle, ActorName ,ReleaseYear.
 Ans:
 
-Php file
+Php  file
 
 <?php
 // Load the XML file
