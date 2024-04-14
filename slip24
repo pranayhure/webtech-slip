@@ -16,7 +16,7 @@ $students = array(
     Array(“rollno” => 5, “name” => “Tom Brown”, “address” => “121 Main St”, “college” => “MNO College”, “course” => “Computer Science”)
 );
 
-// Create a SimpleXMLElement object
+// Create  a SimpleXMLElement object
 $xml = new SimpleXMLElement(‘<students></students>’);
 
 // Add student elements to the XML object
