@@ -13,7 +13,7 @@ Write a script to add multiple elements in “cricket.xml” file of category, c
 Ans:
 
 <?php
-// Create a new DOM document
+// Create   a new DOM document
 $doc = new DOMDocument();
 
 // Create the root element
