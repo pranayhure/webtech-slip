@@ -21,7 +21,7 @@ Html file
    </body>
 </html>
 
-Create is file check number.js
+Create  is file check number.js
 
 Function checkNumber(num) {
    If (num > 0) {
