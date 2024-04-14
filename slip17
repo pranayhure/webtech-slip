@@ -8,9 +8,9 @@ Ans:
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Student Registration Form</title>
+	<title>Student  Registration Form</title>
 	<script>
-		Window.onload = function() {
+		Window.onload =  function() {
 			Alert(“Hello Good Morning!”);
 		};
 	</script>
