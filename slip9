@@ -3,7 +3,7 @@
 Q. 1) Write a JavaScript function to validate username and password for a membership form.
 Ans:
 
-Function validateForm() {
+Function validateForm()  {
   // Get the username and password input values
   Var username = document.forms[“membershipForm”][“username”].value;
   Var password = document.forms[“membershipForm”][“password”].value;
