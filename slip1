@@ -12,7 +12,7 @@ If(isset($_SESSION[‘pcount])) {
   $_SESSION[‘pcount] = 1;
 }
 
-Echo “You have visited this page “.$_SESSION[‘pcount].” Time(s).”;
+Echo “You have visited this  page “.$_SESSION[‘pcount].” Time(s).”;
 ?>
 
 Q. 2)Create ‘Position_Salaries’ Data set. Build a linear regression model by identifying independent and 
