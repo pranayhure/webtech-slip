@@ -16,7 +16,7 @@ If (!$conn) {
     Exit;
 }
 
-// Create student table
+// Create  student table
 $query = “CREATE TABLE student (
             Rollno INTEGER PRIMARY KEY,
             Name VARCHAR(50) NOT NULL,
