@@ -6,7 +6,7 @@ Select the employees name and print the selected employee’s details.
 
 Ans:
 
-Html file
+Html  file
 
 <select id=”employee-list”>
   <option value=””>Select an employee</option>
