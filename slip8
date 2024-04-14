@@ -6,7 +6,7 @@ Q. 1) Write a JavaScript to display message ‘Exams are near, have you started 
 Box ) and Accept any two numbers from user and display addition of two number .(Use Prompt and 
 Confirm box)
 AAAns:
-// Display message using alert box
+// Display  message using alert box
 Alert(‘Exams are near, have you started preparing for?’);
 
 // Accept two numbers from user using prompt and confirm boxes
