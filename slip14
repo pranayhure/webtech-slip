@@ -12,7 +12,7 @@ Js file
 	<script src=https://code.jquery.com/jquery-3.6.0.min.js></script>
 </head>
 <body>
-	<select id=”teacher-list”>
+	<select  id=”teacher-list”>
 		<option value=””>--Select Teacher--</option>
 		<option value=”1”>John Doe</option>
 		<option value=”2”>Jane Smith</option>
